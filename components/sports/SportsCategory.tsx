@@ -50,7 +50,7 @@ const SportsCategory = () => {
       <ModeToggle />
       </div>
       <div className="w-[80px] bg-[#738FFF] mt-2 h-[4px]"></div>
-      <div className="mt-5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5  gap-y-5  lg:flex lg:items-center lg:justify-between lg:flex-wrap">
+      <div className="mt-5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-2 gap-y-5  lg:flex lg:items-center lg:justify-between lg:flex-wrap">
         {productsData.map((item, i) => (
           <SportsCard
             title={item.title}

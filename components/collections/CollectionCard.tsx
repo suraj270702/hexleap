@@ -17,14 +17,14 @@ const CollectionCard = ({title,img,address,btnText}:CollectionsProps) => {
         <Image src={img} alt="" />
         <div>
           <div className="flex items-center justify-between relative mt-4 lg:mt-0">
-            <div className="w-[30px] h-[30px] bg-[#F7F7F8] rounded-full absolute -left-3 dark:bg-gradient-to-br  from-custom-purple-900 to-custom-gray-900 overflow-hidden"></div>
+            <div className="w-[30px] h-[30px] bg-gradient-to-br from-custom-light-purple to-custom-light-blue    dark:from-custom-gray-900 dark:to-custom-purple-900 rounded-full absolute -left-3 dark:bg-gradient-to-br   overflow-hidden"></div>
             <h1 className=" text-[#A9ACB2] text-[30px] absolute left-8 hidden lg:block">
               --------------
             </h1>
             <h1 className=" text-[#A9ACB2] text-[30px] absolute left-8 lg:hidden">
               ----------
             </h1>
-            <div className="w-[30px] h-[30px] bg-[#F7F7F8] rounded-full absolute -right-3 dark:bg-gradient-to-br  from-custom-purple-900 to-custom-gray-900 overflow-hidden"></div>
+            <div className="w-[30px] h-[30px] bg-gradient-to-br from-custom-light-purple to-custom-light-blue rounded-full absolute -right-3 dark:bg-gradient-to-br dark:from-custom-gray-900 dark:to-custom-purple-900   overflow-hidden"></div>
           </div>
           <div className="mt-5 w-[90%] mx-auto">
             <h1 className="text-[#000000] text-[14px] lg:text-[17px] font-medium text-center dark:text-white">

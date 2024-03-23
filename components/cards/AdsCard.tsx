@@ -8,7 +8,7 @@ const AdsCard = () => {
       <div className="h-full md:h-[511px]">
         <div className=" relative w-full bg-[#006555]">
           <Image src={adImg} alt="Advertisement Image" />
-          <div className=" absolute top-0 right-[2px] w-[48px] h-[25px] bg-[#000000]">
+          <div className=" absolute top-0 right-0 w-[48px] h-[25px] bg-[#000000]">
             <h1 className="text-[12px] font-bold text-white text-center mt-1">
               Ad
             </h1>
@@ -16,11 +16,11 @@ const AdsCard = () => {
         </div>
         <div className="border border-[#006555] w-full h-[275px] ">
           <div className="md:w-[188px] w-full mx-auto">
-            <h1 className="text-[#222D3A] text-[20px] font-semibold dark:text-white">
+            <h1 className="text-[#222D3A] text-[16px] md:text-[20px] font-semibold dark:text-white">
               Advertisement title
             </h1>
             <div className="mt-3">
-              <p className="text-[13px] text-[#525965] dark:text-[#DFDFDF]">
+              <p className="text-[12px] md:text-[13px] text-[#525965] dark:text-[#DFDFDF]">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Officia illum, esse facilis aspernatur assumenda et, hic
                 consectetur tempore maxime facere quam. Illum ea velit odio
